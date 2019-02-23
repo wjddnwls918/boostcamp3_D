@@ -26,9 +26,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowIsFloating">false</item>
-
         <item name="android:windowBackground">@android:color/transparent</item>
-
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
     </style>
@@ -155,6 +153,13 @@
         <item name="android:paddingBottom">13dp</item>
         <item name="android:paddingTop">13dp</item>
         <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="MyPageJudgeButton">
+        <item name="android:textSize">14dp</item>
+        <item name="android:padding">@dimen/space_img_btn_padding</item>
+        <item name="android:background">@drawable/tv_judge_bg</item>
+        <item name="android:gravity">center</item>
     </style>
 
 </resources>
